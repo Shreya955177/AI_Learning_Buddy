@@ -213,8 +213,8 @@ with st.expander("📖 About AI Learning Buddy", expanded=False):
 - Self learners
 """)
 
-    with st.expander("💡 Prompt Templates", expanded=False):
-        st.markdown("""
+with st.expander("💡 Prompt Templates", expanded=False):
+    st.markdown("""
 ### 1️⃣ Explain a Concept
 **Template**
 > Explain **{Topic}** in simple terms for a **{Difficulty}** learner using headings, examples, and key points.
