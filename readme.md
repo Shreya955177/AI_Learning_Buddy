@@ -137,7 +137,8 @@ Add screenshots of your Streamlit application here.
 Example:
 
 ```
-Home Page
+Home Page<img width="1917" height="957" alt="Screenshot 2026-07-12 091152" src="https://github.com/user-attachments/assets/088b1dab-88d7-458d-9906-80e16f2b4aae" />
+
 
 AI Response
 
