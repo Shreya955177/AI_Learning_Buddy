@@ -1,8 +1,9 @@
 import streamlit as st
 from google import genai
 
-API_KEY="GEMINI_API_KEY"
-client=genai.Client(api_key=API_KEY)
+API_KEY = st.secrets["GEMINI_API_KEY"]
+
+client = genai.Client(api_key=API_KEY)
 
 st.set_page_config(page_title="AI Learning Buddy",page_icon="🤖",layout="wide")
 
